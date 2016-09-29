@@ -10,4 +10,7 @@ git init
 git remote add origin git@github.com:arendsee/lfs-test.git
 git lfs track "\*.dat"
 echo "hello" > big.dat
+git add -A
+git commit -m 'Test'
+git push origin master
 ```
